@@ -1,0 +1,6 @@
+json
+boto3
+NoCredentialsError
+hmac
+hashlib
+base64
