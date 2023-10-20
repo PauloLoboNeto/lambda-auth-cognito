@@ -25,8 +25,7 @@ resource "aws_iam_policy" "lambda_cognito_policy" {
     Statement = [
       {
         Action   = [
-                 "lambda:InvokeFunction",
-           "cognito-idp:AdminInitiateAuth",
+          "cognito-idp:AdminInitiateAuth",
           "cognito-idp:AdminRespondToAuthChallenge",
           "cognito-idp:AdminAddUserToGroup",
           "cognito-idp:DefineAuthChallenge",
