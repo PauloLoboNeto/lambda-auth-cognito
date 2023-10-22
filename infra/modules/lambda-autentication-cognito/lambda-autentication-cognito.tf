@@ -26,5 +26,4 @@ resource "aws_lambda_permission" "api_gtw_invoke" {
   action        = "lambda:InvokeFunction"
   function_name = var.function_name
   principal     = "apigateway.amazonaws.com"
-  source_arn = "*"
 }
