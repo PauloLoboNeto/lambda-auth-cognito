@@ -1,6 +1,6 @@
 aws_region   = "us-east-1"
-id_user_pools = "us-east-1_v8GEEKleP"
-client_id = "213abdee70ectia5lukf0hbtpd"
+id_user_pools = "us-east-1_bBzFCrgvK"
+client_id = "4qjoqslknjhd80ekclf2iecila"
 function_name = "lambda-auth"
 handler = "lambda-auth.lambda_handler" # O nome do arquivo e da função de manipulador
 runtime = "python3.8"                 
